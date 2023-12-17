@@ -1,0 +1,71 @@
+.secone {
+    background: #1f2937;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerlogo{
+    font-size: 24px;
+    color:#f9faf8
+}
+
+.headerlink {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.mainhero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0%;
+}
+
+.secondhero {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+.mainbutton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    width: 100px;
+    height: 33px;
+    border: none;
+}
+.sectwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.secthree {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.infolinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.quotesec {
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+/* .quote{
+    text: light;
+} */
