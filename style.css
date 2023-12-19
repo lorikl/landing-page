@@ -1,8 +1,15 @@
 body {
     font-family: sans-serif;
 }
+
+button {
+    cursor: pointer;
+}
 .secone, footer {
     background: #1f2937;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 .header {
     display: flex;
@@ -29,6 +36,11 @@ body {
     margin-bottom: 0%;
 }
 
+img{
+    height: 300px;
+    width: 500px;
+}
+
 .secondhero {
     font-size: 18px;
     color: #e5e7eb;
@@ -38,7 +50,7 @@ body {
 .mainbutton {
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 8px;
+    border-radius: 12px;
     width: 100px;
     height: 33px;
     border: none;
@@ -85,7 +97,10 @@ body {
 
 .CTA {
     display: flex;
-    margin: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 50rem;
+    margin-right: 50rem;
     background-color: #3882f6;
     color: #e5e7eb;
     justify-content: center;
@@ -95,11 +110,14 @@ body {
 }
 
 .CTAbutton {
-    border: 2px;
-    border-color: #e5e7eb;
+    border: 2px solid black;
     background-color: #3882f6;
+    padding: 10px 28px;
+    font-size: 16px;
     cursor: pointer;
-    color: #e5e7eb;
+    border-color: #e5e7eb;
+    color:#e5e7eb;
+    border-radius: 12px;
 }
 
 footer {
