@@ -1,6 +1,5 @@
-.secone {
+.secone, footer {
     background: #1f2937;
-    margin: 0;
 }
 .header {
     display: flex;
@@ -64,8 +63,41 @@
 .quotesec {
     background-color: #e5e7eb;
     text-align: center;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .quote{
-    text: light;
-} */
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.thor {
+    margin-left: 18rem;
+}
+
+.CTA {
+    display: flex;
+    margin: 5rem;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.CTAbutton {
+    flex-wrap: wrap;
+}
+
+footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 3rem;
+}
