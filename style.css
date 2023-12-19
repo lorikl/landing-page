@@ -1,3 +1,6 @@
+body {
+    font-family: sans-serif;
+}
 .secone, footer {
     background: #1f2937;
 }
@@ -87,12 +90,16 @@
     color: #e5e7eb;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 26px;
     
 }
 
 .CTAbutton {
-    flex-wrap: wrap;
+    border: 2px;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    cursor: pointer;
+    color: #e5e7eb;
 }
 
 footer {
@@ -100,4 +107,5 @@ footer {
     color: #e5e7eb;
     text-align: center;
     padding: 3rem;
+    font-family: sans-serif;
 }
