@@ -7,9 +7,6 @@ button {
 }
 .secone, footer {
     background: #1f2937;
-    height: 100%;
-    width: 100%;
-    display: block;
 }
 .header {
     display: flex;
@@ -73,6 +70,10 @@ img{
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+
+.file {
+    margin-top: 10px;
 }
 
 .quotesec {
